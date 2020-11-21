@@ -10,10 +10,10 @@ renderMyComponent = () => {
 };
 
 function greet(input) {
-  return input != null ? input : "Hello world";
+  return input != null ? input : 'Hello world';
 }
 
 // ES2020 nullish coalescing
 function greet(input) {
-  return input ?? "Hello world";
+  return input ?? 'Hello world';
 }
